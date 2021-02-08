@@ -7,22 +7,19 @@ if user_1=='papier':
         print("wygrywa User1")
     if user_2 =='nozyce':
         print("wygrywa User2")
-    if user_2 =='papier'
-        print("remis")
 
 if user_1 =='kamien':
-    if user_2 =='kamien':
-        print("remis")
     if user_2 =='nozyce':
         print("wygrywa User1")
-    if user_2 =='papier'
+    if user_2 =='papier':
         print("wygrywa User2")
 
 if user_1 =='nozyce':
-    if user_2 =='nozyce':
-        print("remis")
     if user_2 =='papier':
         print("wygrywa User1")
-    if user_2 =='kamien'
+    if user_2 =='kamien':
         print("wygrywa User2")
+
+if user_1 == user_2:
+    print("remis")
 
